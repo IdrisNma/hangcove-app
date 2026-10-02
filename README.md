@@ -6,7 +6,6 @@ Chat with friends and play games together: Ludo, WHOT, Chess, 8-Ball Pool, Truth
 
 **[Download Hangcove](https://github.com/IdrisNma/hangcove-app/releases/latest/download/hangcove.apk)**: works on every Android phone (Android 7.0 or newer: Samsung, Tecno, Infinix, itel, Xiaomi/Redmi, Oppo, Vivo, Pixel and more).
 
-Short on data? [Smaller download](https://github.com/IdrisNma/hangcove-app/releases/latest/download/hangcove-64bit.apk) for phones from about 2017 on. If it won't install, use the main download above.
 
 ## Install
 
