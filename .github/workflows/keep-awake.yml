@@ -1,0 +1,13 @@
+# Keeps the Hangcove game server awake: a host that sleeps after a quiet spell also stops its
+# background jobs (news and live-score notifications), so it's visited every 10 minutes.
+name: Keep server awake
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: curl -fsS --max-time 90 https://hangtime-server.onrender.com/healthz
